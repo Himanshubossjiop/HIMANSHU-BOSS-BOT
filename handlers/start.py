@@ -1,6 +1,7 @@
-import asyncio
+import asyncio
+
 from helpers.filters import command
-from config import BOT_NAME as bn, BOT_USERNAME as bu, SUPPORT_GROUP, OWNER_USERNAME
+from config import 亗𝗚 𝗼 𝗗 ᭄ 𝗙 𝗔 𝗧 𝗛 𝗘 𝗥亗 as bn, @GOD_FATHER_MUSIC10_BOT as bu, https://t.me/FRIENDSFOREVERBOSS, @megastarji
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -9,7 +10,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAEENxZiNtPdibVkMsjLZrUG9NK4hotHQgAC2wEAAoM12VSdN9ujxVtnUyME")
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/89cbc8b8760b6abff430f.jpg",
+        photo=f"https://te.legra.ph/file/2a74e33e4cd6bf3ca16ca.jpg
         caption=f"""**━━━━━━━━━━━━━━━━━━
 🖤 ʜᴇʏ {message.from_user.mention()} !
 
@@ -17,11 +18,11 @@ async def start_(client: Client, message: Message):
 ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ʜᴀɴᴅʟᴇʀs : ( `/ . • $ ^ ~ + * ?` )
 ┏━━━━━━━━━━━━━━┓
 ┣★
-┣★ ᴄʀᴇᴀᴛᴏʀ: [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](t.me/{OWNER_USERNAME})
+┣★ ᴄʀᴇᴀᴛᴏʀ: [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](t.me/{megastarji})
 ┣★
 ┗━━━━━━━━━━━━━━┛
 
-💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](t.me/{OWNER_USERNAME}) ʙᴀʙʏ...
+💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](t.me/{megastarji}) ʙᴀʙʏ...
 ━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -31,16 +32,16 @@ async def start_(client: Client, message: Message):
                        ),
                   ],[
                     InlineKeyboardButton(
-                        "✗ ᴏᴡɴᴇʀ ✗", url=f"https://t.me/{OWNER_USERNAME}"
+                        "✗ ᴏᴡɴᴇʀ ✗", url=f"https://t.me/{megastarji}"
                     ),
                     InlineKeyboardButton(
-                        "✗ sᴜᴘᴘᴏʀᴛ ✗", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "✗ sᴜᴘᴘᴏʀᴛ ✗", url=f"https://t.me/{FRIENDSFOREVERBOSS}"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "✗ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ ✗", url="https://github.com/AnonymousBoy1025/FallenMusic"
+                        "✗ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ ✗", url="https://github.com/Himanshubossjiop/HIMANSHU-BOSS-BOT"
                     )]
             ]
        ),
     )
-
+
